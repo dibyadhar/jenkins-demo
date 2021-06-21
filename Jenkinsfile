@@ -9,7 +9,11 @@ pipeline {
           }
       }
 
-    
+       stage('JOB URL'){
+          steps{
+            echo "$JOB_DISPLAY_URL"
+          }
+      }
 
 
   }
